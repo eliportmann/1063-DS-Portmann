@@ -109,7 +109,6 @@ void flipVert(rgb** image,int width,int height){
 * @Returns:
 *    void
 */
-*/
 void flipHorz(rgb** image,int width,int height){
   rgb temp;
 	for (int j = 0; j<=width/2; j++) {
