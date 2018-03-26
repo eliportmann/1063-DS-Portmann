@@ -1,0 +1,10 @@
+
+string toUpper(string w){
+  for(int i=0;i<w.length();i++){
+    
+    if((int)w[i]>=97 && (int)w[i]<=122){
+      w[i] = w[i]-32;
+    }
+  }
+  return w;
+}
